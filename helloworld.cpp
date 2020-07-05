@@ -1,13 +1,4 @@
-
-
-#include<stdio.h>
-#include<bits/stdc++.h>
-
-using namespace std;
-int  x=4;
-int empt=4;
-int full=4;
-int n=5;
+=5;
 
 
 
