@@ -4,10 +4,10 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-int  x=0;
-int empt;
-int full;
-int n;
+int  x=4;
+int empt=4;
+int full=4;
+int n=5;
 
 
 
@@ -16,8 +16,7 @@ int y;
 
 int signal(int s)
 {
-    return (++s);
-}
+    return (++s);}
 
 int wait(int s)
 {
@@ -57,8 +56,8 @@ mtex=signal(mtex);
 int main()
 {
 
-int mtex=1;
-full=0;
+int mtex=2;
+full=2;
 cout<<"Enter the number of resources: "<<endl;
 cin>>n;
 empt=n;
@@ -98,6 +97,7 @@ case 3:
 
     }
 }
+
 
 
 }
